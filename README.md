@@ -1,1 +1,181 @@
 # Research-Environment
+
+open PowerShell and run:
+
+cd C:\Users\eelve
+
+mkdir Vulnerability-Research-Lab
+
+cd Vulnerability-Research-Lab
+
+Verify: Get-Location
+
+You should see something similar to:
+
+Path
+----
+C:\Users\eelve\Vulnerability-Research-Lab
+
+Now create the research directories:
+
+mkdir targets
+
+mkdir reports
+
+mkdir notes
+
+mkdir evidence
+
+mkdir scripts
+
+Check them: Get-ChildItem
+
+You should have:
+Vulnerability-Research-Lab
+│
+├── targets
+├── reports
+├── notes
+├── evidence
+└── scripts
+
+**Create our Python environment**
+
+From: PS C:\Users\eelve\Vulnerability-Research-Lab>
+
+Run: python -m venv .venv
+
+Then: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Activate it:.venv\Scripts\Activate.ps1
+
+You should now see: (.venv) PS C:\Users\eelve\Vulnerability-Research-Lab>
+
+Verify Python run: python --version
+Verify Git run: git --version
+
+Run:git init
+
+Create .gitignore run: notepad .gitignore
+In the note pad past this and save it. Close the not pad
+
+to create private research directories run:
+mkdir private
+
+mkdir draft-disclosures
+
+Now check run: git status
+
+Before committing, let's also make sure RESEARCH_RULES.md exists and run: Test-Path RESEARCH_RULES.md
+
+If you get:don't commit yet. We'll create RESEARCH_RULES.md next.
+
+From your current PowerShell window, run: notepad RESEARCH_RULES.md
+
+Notepad will ask if you want to create a new file. Click Yes.
+
+Paste this into it:
+
+Save and close the note pad
+
+Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
+
+If it's true, run: git status
+
+Add the research rules run: git add RESEARCH_RULES.md
+
+The run: git status
+
+You should see 
+
+Changes to be committed:
+        new file:   .gitignore
+        new file:   RESEARCH_RULES.md
+
+Make your first commit run: git commit -m "Set up vulnerability research environment"
+
+You should get output showing something similar to:
+
+2 files changed
+
+create mode 100644 .gitignore
+
+create mode 100644 RESEARCH_RULES.md
+
+Verify run: git status
+
+We want:nothing to commit, working tree clean
+
+Next we'll Install Semgrep
+
+Since your Python virtual environment is active, first try running: python -m pip install semgrep
+
+After installation completes, verify it and run:semgrep --version
+
+Save your Python dependencies, run: python -m pip freeze > requirements.txt
+
+Verify the file: Get-Content requirements.txt
+
+You should see semgrep among the packages.
+
+add and commit it run: git add requirements.txt
+git commit -m "Add Semgrep static analysis tooling"
+
+Verify run: git status
+
+We want: nothing to commit, working tree clean
+
+Create a CodeQL tools folder run:  
+
+mkdir C:\
+to Verify run: Get-ChildItem C:\Tools
+
+You should see: CodeQL
+
+Download the official CodeQL bundle from Official GitHub CodeQL bundle releases
+
+Download codeql-bundle-win64.tar.gz
+
+Open PowerShell and verify that Windows can see it, run: Get-ChildItem "$HOME\Downloads\codeql-bundle-win64.tar.gz"
+
+Before extracting CodeQL, First make sure the destination exists, Run: New-Item -ItemType Directory -Force -Path "C:\Tools\CodeQL"
+mkdir C:\Tools\CodeQL
+
+Now extract the bundle run: tar -xzf "$HOME\Downloads\codeql-bundle-win64.tar.gz" -C "C:\Tools\CodeQL"
+
+Then check what was extracted run: Get-ChildItem "C:\Tools\CodeQL"
+
+Next check for the executable run: Test-Path "C:\Tools\CodeQL\codeql\codeql.exe"
+
+We want: True
+
+run CodeQL directly for the first time and add it to your Windows PATH so you can simply type: codeql version
+
+Add CodeQL to PATH permanently Run this in PowerShell:
+$codeqlPath = "C:\Tools\CodeQL\codeql"
+$currentUserPath = [Environment]::GetEnvironmentVariable("Path", "User")
+
+if ($currentUserPath -notlike "*$codeqlPath*") {
+    [Environment]::SetEnvironmentVariable(
+        "Path",
+        "$currentUserPath;$codeqlPath",
+        "User"
+    )
+} 
+
+Then close PowerShell completely and reopen it.
+
+Return to your project run: cd C:\Users\eelve\Vulnerability-Research-Lab
+
+cd C:\Users\eelve\Vulnerability-Research-Lab
+
+Reactivate your virtual environment run:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.venv\Scripts\Activate.ps1
+
+Now test: codeql version
+
+After that, I’d do one final verification: codeql resolve languages
+
+Your output shows support for languages including C/C++, C#, Go, Java, JavaScript, Python, Ruby, Rust, Swift, XML, and YAML.
