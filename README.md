@@ -71,6 +71,8 @@ Verify Python run: python --version
 
 Verify Git run: git --version
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/530a0f319a763f7efa8081c6e275869dc0981805/Research-Environment/Screenshot%202026-09-01%20012444.png)
+
 Run:git init
 
 Create .gitignore run: notepad .gitignore
