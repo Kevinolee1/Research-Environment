@@ -1,5 +1,8 @@
 # Research-Environment
 
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/a8b90cf25a985601f60a8d45f49a35594840e9c4/Research-Environment/Screenshot%202026-09-01%20005609.png)
+
 open PowerShell and run:
 
 cd C:\Users\eelve
