@@ -51,6 +51,8 @@ Vulnerability-Research-Lab
 
 **Create our Python environment**
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/93f624242fbaed999d8b9d4a416335d8eafb622e/Research-Environment/Screenshot%202026-09-01%20010636.png)
+
 From: PS C:\Users\eelve\Vulnerability-Research-Lab>
 
 Run: python -m venv .venv
