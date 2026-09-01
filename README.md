@@ -11,6 +11,8 @@ mkdir Vulnerability-Research-Lab
 
 cd Vulnerability-Research-Lab
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/f077544d42d018ed2b1d8ec924d5a35f10873654/Research-Environment/Screenshot%202026-09-01%20005721.png)
+
 Verify: Get-Location
 
 You should see something similar to:
