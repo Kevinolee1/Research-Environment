@@ -75,6 +75,8 @@ Verify Git run: git --version
 
 Run:git init
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/318aa686edf715ff641bd28baa1a79bd99a8f424/Research-Environment/Screenshot%202026-09-01%20012653.png)
+
 Create .gitignore run: notepad .gitignore
 In the note pad past this and save it. Close the not pad
 
