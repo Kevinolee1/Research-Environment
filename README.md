@@ -22,6 +22,7 @@ Path
 C:\Users\eelve\Vulnerability-Research-Lab
 
 ![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/2a0406db0095bf21c9d150b68b4cc0749872204a/Research-Environment/Screenshot%202026-09-01%20005936.png)
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/383ce32ef873822d2175401e3d83eb6a52699aab/Research-Environment/Screenshot%202026-09-01%20010021.png)
 
 Now create the research directories:
 
