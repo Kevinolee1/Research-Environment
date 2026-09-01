@@ -66,6 +66,9 @@ You should now see: (.venv) PS C:\Users\eelve\Vulnerability-Research-Lab>
 ![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/f06e5111567ca9aa33e4876ef9242bd2e34d6357/Research-Environment/Screenshot%202026-09-01%20011005.png)
 
 Verify Python run: python --version
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/a12024543fbe256f8127964b0da8898e165fdf83/Research-Environment/Screenshot%202026-09-01%20011810.png)
+
 Verify Git run: git --version
 
 Run:git init
