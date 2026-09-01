@@ -63,6 +63,8 @@ Activate it:.venv\Scripts\Activate.ps1
 
 You should now see: (.venv) PS C:\Users\eelve\Vulnerability-Research-Lab>
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/f06e5111567ca9aa33e4876ef9242bd2e34d6357/Research-Environment/Screenshot%202026-09-01%20011005.png)
+
 Verify Python run: python --version
 Verify Git run: git --version
 
