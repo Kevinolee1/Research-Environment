@@ -36,7 +36,9 @@ mkdir evidence
 
 mkdir scripts
 
-Check them: Get-ChildItem
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/080aeecb6b8c3783fdd4f272c506527ebd6e78ab/Research-Environment/Screenshot%202026-09-01%20010150.png)
+
+Check them run: Get-ChildItem
 
 You should have:
 Vulnerability-Research-Lab
