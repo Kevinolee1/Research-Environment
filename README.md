@@ -59,7 +59,7 @@ Run: python -m venv .venv
 
 Then: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-Activate it:.venv\Scripts\Activate.ps1
+Then activate the virtual environment: .venv\Scripts\Activate.ps1
 
 You should now see: (.venv) PS C:\Users\eelve\Vulnerability-Research-Lab>
 
@@ -195,9 +195,6 @@ Download codeql-bundle-win64.tar.gz
 ![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/056f904198510359329e3d5e84f4c5b34e504371/Research-Environment/Screenshot%202026-09-01%20022148.png)
 
 Open PowerShell and verify that Windows can see it, run: Get-ChildItem "$HOME\Downloads\codeql-bundle-win64.tar.gz"
-
-Before extracting CodeQL, First make sure the destination exists, Run: New-Item -ItemType Directory -Force -Path "C:\Tools\CodeQL"
-mkdir C:\Tools\CodeQL
 
 ![image alt](https://github.com/Kevinolee1/Research-Environment/blob/6ccd555a5c46ba3e4bb4049cbb0cb9f03b049756/Research-Environment/Screenshot%202026-09-01%20024139.png)
 
