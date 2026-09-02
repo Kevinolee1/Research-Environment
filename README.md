@@ -197,6 +197,8 @@ Open PowerShell and verify that Windows can see it, run: Get-ChildItem "$HOME\Do
 Before extracting CodeQL, First make sure the destination exists, Run: New-Item -ItemType Directory -Force -Path "C:\Tools\CodeQL"
 mkdir C:\Tools\CodeQL
 
+!{image alt](https://github.com/Kevinolee1/Research-Environment/blob/7072adc0b6e8cad877b677ec89cb2360426cc9da/Research-Environment/Screenshot%202026-09-01%20023937.png)
+
 Now extract the bundle run: tar -xzf "$HOME\Downloads\codeql-bundle-win64.tar.gz" -C "C:\Tools\CodeQL"
 
 Then check what was extracted run: Get-ChildItem "C:\Tools\CodeQL"
