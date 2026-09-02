@@ -1,4 +1,4 @@
-## Lab 1 — Vulnerability Research Environment
+## Vulnerability Research Environment
 
 Built and configured a dedicated **Windows-based vulnerability research environment** for authorized security testing and future vulnerability discovery.
 
