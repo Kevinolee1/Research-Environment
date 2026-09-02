@@ -120,12 +120,6 @@ Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
 
 If it's true, run: git status
 
-
-
-Add the research rules run: git add RESEARCH_RULES.md
-
-The run: git status
-
 You should see 
 
 Changes to be committed:
@@ -143,6 +137,8 @@ You should get output showing something similar to:
 create mode 100644 .gitignore
 
 create mode 100644 RESEARCH_RULES.md
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/68e817e84413db884b2f8687c09f65e3cbdbca77/Research-Environment/Screenshot%202026-09-01%20014936.png)
 
 Verify run: git status
 
