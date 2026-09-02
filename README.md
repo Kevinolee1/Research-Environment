@@ -138,7 +138,7 @@ create mode 100644 .gitignore
 
 create mode 100644 RESEARCH_RULES.md
 
-![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/68e817e84413db884b2f8687c09f65e3cbdbca77/Research-Environment/Screenshot%202026-09-01%20014936.png)
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/5a2a86eb0e5c1e6e39e8cbb559cce1aee2d918e8/Research-Environment/Screenshot%202026-09-01%20014936.png)
 
 Verify run: git status
 
