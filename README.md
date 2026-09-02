@@ -214,15 +214,26 @@ We want: True
 run CodeQL directly for the first time and add it to your Windows PATH so you can simply type: codeql version
 
 Add CodeQL to PATH permanently Run this in PowerShell:
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/8ccaeb520dc269a5938bcf2e843ae731adf23814/Research-Environment/Screenshot%202026-09-01%20024937.png)
+
 $codeqlPath = "C:\Tools\CodeQL\codeql"
+
 $currentUserPath = [Environment]::GetEnvironmentVariable("Path", "User")
 
 if ($currentUserPath -notlike "*$codeqlPath*") {
+   
     [Environment]::SetEnvironmentVariable(
+       
         "Path",
+       
+       
         "$currentUserPath;$codeqlPath",
+       
         "User"
+   
     )
+
 } 
 
 Then close PowerShell completely and reopen it.
