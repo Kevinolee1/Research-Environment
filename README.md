@@ -159,12 +159,14 @@ Save your Python dependencies, run: python -m pip freeze > requirements.txt
 
 ![image alt](https://github.com/Kevinolee1/Research-Environment/blob/e13145965686c10f589092acdda29a5b0eab83e4/Research-Environment/Screenshot%202026-09-01%20020525.png)
 
-Verify the file: Get-Content requirements.txt
+Verify the file: git-Content requirements.txt
 
 You should see semgrep among the packages.
 
 add and commit it run: git add requirements.txt
 git commit -m "Add Semgrep static analysis tooling"
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/2cbb5f67c09323a58f4695aa00eca08db3c251bf/Research-Environment/Screenshot%202026-09-01%20020620.png)
 
 Verify run: git status
 
