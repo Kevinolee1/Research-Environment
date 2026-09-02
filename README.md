@@ -116,11 +116,11 @@ Save and close the note pad
 
 Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
 
-![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/67fbd829704c883a32ee4c8cc4ca18708769bdd0/Research-Environment/Screenshot%202026-09-01%20014306.png)
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/ae07877243d568d2a4211c414aba5cfbf3e4d4a8/Research-Environment/Screenshot%202026-09-01%20014453.png)
 
 If it's true, run: git status
 
-![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/ae07877243d568d2a4211c414aba5cfbf3e4d4a8/Research-Environment/Screenshot%202026-09-01%20014453.png)
+
 
 Add the research rules run: git add RESEARCH_RULES.md
 
