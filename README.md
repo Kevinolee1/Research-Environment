@@ -1,5 +1,21 @@
-# Research-Environment
 ## Lab 1 — Vulnerability Research Environment
+
+Built and configured a dedicated **Windows-based vulnerability research environment** for authorized security testing and future vulnerability discovery.
+
+### Key Accomplishments
+
+* Created a structured research repository for **targets, reports, notes, evidence, scripts, and private disclosures**.
+* Configured **Git** for version control and protection of sensitive research files.
+* Created an isolated **Python virtual environment** for research tools and dependencies.
+* Installed and verified **Semgrep** for static source-code analysis.
+* Installed and configured **GitHub CodeQL CLI** for source-code analysis, data-flow analysis, taint tracking, and future variant analysis.
+* Established research rules covering **authorization, testing scope, evidence handling, and responsible disclosure**.
+* Verified the environment and research tools were functioning correctly.
+
+### Outcome
+
+Established a structured and reproducible vulnerability research environment ready for **Lab 2 — Target Selection**, where a real open-source application will be evaluated for authorized security research.
+
 
 Built and configured a dedicated **Windows-based vulnerability research environment** for authorized security testing and future vulnerability discovery.
 
