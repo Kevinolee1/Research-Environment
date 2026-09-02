@@ -177,6 +177,9 @@ We want: nothing to commit, working tree clean
 Create a CodeQL tools folder run:  
 
 mkdir C:\
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/b9355efc426dce4e0295ef3834d88dd47e9810b8/Research-Environment/Screenshot%202026-09-01%20021050.png)
+
 to Verify run: Get-ChildItem C:\Tools
 
 You should see: CodeQL
