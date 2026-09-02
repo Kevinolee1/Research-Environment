@@ -87,6 +87,8 @@ mkdir private
 
 mkdir draft-disclosures
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/dd281bcabe238302ddf88e6f188c81cce2a4b2f0/Research-Environment/Screenshot%202026-09-01%20013205.png)
+
 Now check run: git status
 
 Before committing, let's also make sure RESEARCH_RULES.md exists and run: Test-Path RESEARCH_RULES.md
