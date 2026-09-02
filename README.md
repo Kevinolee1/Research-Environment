@@ -154,6 +154,7 @@ Since your Python virtual environment is active, first try running: python -m pi
 
 After installation completes, verify it and run:semgrep --version
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/9cf769157a84ccba09fe4e7b6946c7c3652efff0/Research-Environment/Screenshot%202026-09-01%20020353.png)
 Save your Python dependencies, run: python -m pip freeze > requirements.txt
 
 Verify the file: Get-Content requirements.txt
