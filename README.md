@@ -103,6 +103,8 @@ From your current PowerShell window, run: notepad RESEARCH_RULES.md
 
 Notepad will ask if you want to create a new file. Click Yes.
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/b76b42d220c490745d6567d2d11b0701a7744f8a/Screenshot%202026-09-01%20201328.png)
+
 Paste this into it:
 
 Save and close the note pad
