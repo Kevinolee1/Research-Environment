@@ -203,6 +203,8 @@ Now extract the bundle run: tar -xzf "$HOME\Downloads\codeql-bundle-win64.tar.gz
 
 Then check what was extracted run: Get-ChildItem "C:\Tools\CodeQL"
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/af9d9c7345131032822b106cb20c94b6ea411b07/Research-Environment/Screenshot%202026-09-01%20024240.png)
+
 Next check for the executable run: Test-Path "C:\Tools\CodeQL\codeql\codeql.exe"
 
 We want: True
