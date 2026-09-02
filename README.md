@@ -190,6 +190,8 @@ Download the official CodeQL bundle from Official GitHub CodeQL bundle releases
 
 Download codeql-bundle-win64.tar.gz
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/056f904198510359329e3d5e84f4c5b34e504371/Research-Environment/Screenshot%202026-09-01%20022148.png)
+
 Open PowerShell and verify that Windows can see it, run: Get-ChildItem "$HOME\Downloads\codeql-bundle-win64.tar.gz"
 
 Before extracting CodeQL, First make sure the destination exists, Run: New-Item -ItemType Directory -Force -Path "C:\Tools\CodeQL"
