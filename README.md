@@ -172,6 +172,8 @@ Verify run: git status
 
 We want: nothing to commit, working tree clean
 
+![image alt](https://github.com/Kevinolee1/Research-Environment/blob/505f3758340ff21d42b0a5e5b22296ee869f8b68/Research-Environment/Screenshot%202026-09-01%20020952.png)
+
 Create a CodeQL tools folder run:  
 
 mkdir C:\
