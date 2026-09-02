@@ -184,6 +184,8 @@ to Verify run: Get-ChildItem C:\Tools
 
 You should see: CodeQL
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/40165af3d10173ea0f954eae80f36aa95bcfeab9/Research-Environment/Screenshot%202026-09-01%20021731.png)
+
 Download the official CodeQL bundle from Official GitHub CodeQL bundle releases
 
 Download codeql-bundle-win64.tar.gz
