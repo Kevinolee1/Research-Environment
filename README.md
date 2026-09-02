@@ -209,6 +209,8 @@ Next check for the executable run: Test-Path "C:\Tools\CodeQL\codeql\codeql.exe"
 
 We want: True
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/5118057e256c8e5c0dcd8b7836a01e467d2a1629/Research-Environment/Screenshot%202026-09-01%20024616.png)
+
 run CodeQL directly for the first time and add it to your Windows PATH so you can simply type: codeql version
 
 Add CodeQL to PATH permanently Run this in PowerShell:
