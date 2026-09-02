@@ -146,6 +146,8 @@ We want:nothing to commit, working tree clean
 
 Next we'll Install Semgrep
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/e87c6e2729cbb6547f3780b67e243159c9387d71/Research-Environment/Screenshot%202026-09-01%20015824.png)
+
 Since your Python virtual environment is active, first try running: python -m pip install semgrep
 
 After installation completes, verify it and run:semgrep --version
