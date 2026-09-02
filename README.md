@@ -242,8 +242,6 @@ Then close PowerShell completely and reopen it.
 
 Return to your project run: cd C:\Users\eelve\Vulnerability-Research-Lab
 
-cd C:\Users\eelve\Vulnerability-Research-Lab
-
 Reactivate your virtual environment run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .venv\Scripts\Activate.ps1
 
