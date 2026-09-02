@@ -78,6 +78,9 @@ Run:git init
 ![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/318aa686edf715ff641bd28baa1a79bd99a8f424/Research-Environment/Screenshot%202026-09-01%20012653.png)
 
 Create .gitignore run: notepad .gitignore
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/a8470c5cc285f7fa99ba3ee009963e833edd280d/Screenshot%202026-09-01%20201611.png)
+
 In the note pad past this and save it. Close the not pad
 
 ![image alt](https://github.com/Kevinolee1/Research-Environment/blob/de8e8b1bbcea9c87e8eed9641b221fed80713cdf/Research-Environment/Screenshot%202026-09-01%20012932.png)
