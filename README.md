@@ -244,12 +244,12 @@ Return to your project run: cd C:\Users\eelve\Vulnerability-Research-Lab
 
 cd C:\Users\eelve\Vulnerability-Research-Lab
 
-Reactivate your virtual environment run:
-
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Reactivate your virtual environment run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .venv\Scripts\Activate.ps1
 
 Now test: codeql version
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/1b1dc3e427a983040179c505ba062f8233c433db/Research-Environment/Screenshot%202026-09-01%20025604.png)
 
 After that, I’d do one final verification: codeql resolve languages
 
