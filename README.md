@@ -241,7 +241,12 @@ Then close PowerShell completely and reopen it.
 
 Return to your project run: cd C:\Users\eelve\Vulnerability-Research-Lab
 
-Reactivate your virtual environment run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Reactivate your virtual environment run: 
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Then:
+
 .venv\Scripts\Activate.ps1
 
 Now test: codeql version
