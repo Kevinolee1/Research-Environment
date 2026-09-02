@@ -150,6 +150,8 @@ Next we'll Install Semgrep
 
 Since your Python virtual environment is active, first try running: python -m pip install semgrep
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/8a3d73c3d62457dcd512e344e3a134f5cd110b2a/Research-Environment/Screenshot%202026-09-01%20020045.png)
+
 After installation completes, verify it and run:semgrep --version
 
 Save your Python dependencies, run: python -m pip freeze > requirements.txt
