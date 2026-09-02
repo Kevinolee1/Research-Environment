@@ -112,10 +112,11 @@ Paste this into it:
 
 Save and close the note pad
 
-Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
-
 ![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/5739fb236d9367600bad87af40cff71ee8ee7801/Research-Environment/Screenshot%202026-09-01%20014038.png)
 
+Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
+
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/e76a8ae5d42042056abde2f8225ef237578d8f66/Research-Environment/Screenshot%202026-09-01%20014728.png)
 If it's true, run: git status
 
 Add the research rules run: git add RESEARCH_RULES.md
