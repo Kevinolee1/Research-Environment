@@ -97,6 +97,8 @@ Before committing, let's also make sure RESEARCH_RULES.md exists and run: Test-P
 
 If you get false, don't commit yet. We'll create RESEARCH_RULES.md next.
 
+![image alt](https://github.com/Kevinolee1/Research-Environment/blob/492e41a690bebf4e7a075a4934285825268bd700/Research-Environment/Screenshot%202026-09-01%20013849.png)
+
 From your current PowerShell window, run: notepad RESEARCH_RULES.md
 
 Notepad will ask if you want to create a new file. Click Yes.
