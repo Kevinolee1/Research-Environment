@@ -238,6 +238,8 @@ if ($currentUserPath -notlike "*$codeqlPath*") {
 
 Then close PowerShell completely and reopen it.
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/56c07c8400d9999eb6ba99a4e75e54c5974b737a/Research-Environment/Screenshot%202026-09-01%20025418.png)
+
 Return to your project run: cd C:\Users\eelve\Vulnerability-Research-Lab
 
 cd C:\Users\eelve\Vulnerability-Research-Lab
