@@ -93,7 +93,9 @@ Now check run: git status
 
 Before committing, let's also make sure RESEARCH_RULES.md exists and run: Test-Path RESEARCH_RULES.md
 
-If you get:don't commit yet. We'll create RESEARCH_RULES.md next.
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/3b4b8f61e076ea2c50947e75efa90f332d070e69/Research-Environment/Screenshot%202026-09-01%20013525.png)
+
+If you get false, don't commit yet. We'll create RESEARCH_RULES.md next.
 
 From your current PowerShell window, run: notepad RESEARCH_RULES.md
 
