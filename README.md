@@ -116,6 +116,7 @@ Save and close the note pad
 
 Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/67fbd829704c883a32ee4c8cc4ca18708769bdd0/Research-Environment/Screenshot%202026-09-01%20014306.png)
 
 If it's true, run: git status
 
