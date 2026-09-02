@@ -120,6 +120,8 @@ Verify it in PowerShell, run: Test-Path RESEARCH_RULES.md
 
 If it's true, run: git status
 
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/ae07877243d568d2a4211c414aba5cfbf3e4d4a8/Research-Environment/Screenshot%202026-09-01%20014453.png)
+
 Add the research rules run: git add RESEARCH_RULES.md
 
 The run: git status
@@ -130,7 +132,7 @@ Changes to be committed:
         new file:   .gitignore
         new file:   RESEARCH_RULES.md
 
-![Image alt](![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/e76a8ae5d42042056abde2f8225ef237578d8f66/Research-Environment/Screenshot%202026-09-01%20014728.png)
+![Image alt](https://github.com/Kevinolee1/Research-Environment/blob/e76a8ae5d42042056abde2f8225ef237578d8f66/Research-Environment/Screenshot%202026-09-01%20014728.png)
 
 Make your first commit run: git commit -m "Set up vulnerability research environment"
 
